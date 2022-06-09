@@ -1,0 +1,54 @@
+.progress{
+    background-color: #949d9b;
+    margin-top: -16px;
+    margin-left: -15px;
+}
+.btnns{
+   float: right;
+}
+
+.gaurdian-form{
+    margin-left: 30%;
+    margin-top: -42%;
+}
+.stdntinfo{
+    margin-left: 40%;
+    margin-top: -58%;
+}
+.modal-dialog{
+    min-width: 700px;
+}
+.progress-bar {
+    height: 20px;
+  background: #ffaf45;
+  transition: all 2s linear;
+  }
+  .names{
+      margin-left: 200px;
+      margin-top: 20px;
+  }
+  input{
+      border-radius: 10px;
+      background-color: #bcccc8;
+  }
+  .SD{
+      margin-left: 50px;
+  }
+  .selectoptn{
+      margin-top: 15px;
+      background-color: #25caeb;
+      border-radius: 10px;
+  }
+  .clstcn{
+      margin-left: 80px;
+  }
+  .stdntinp{
+      margin-top: 10px;
+  }
+  .Teacher-form{
+      margin-top: -50px;
+  }
+  .srchbtn{
+      background: transparent;
+      border: none;
+  }

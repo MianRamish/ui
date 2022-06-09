@@ -1,0 +1,113 @@
+.navbar{
+  height: 80px;
+  background: #468B84;
+}
+.logo{
+  margin-left: 100px;
+  margin-top: -5px;
+}
+.oname{
+  color: #073D37;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+.profile-div{
+  display: flex;
+  flex-direction: row;
+}
+.sname{
+  color: #073D37;
+}
+.profilep{
+  border-radius: 50%;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+.dropbtn {
+    color: #073D37;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+  padding-bottom: 15px;
+  margin-top: 10px !important;
+  }
+  
+  .dropdown {
+    display: inline-block;
+    margin-right: 40px;
+  background-color: transparent;
+    margin-top: 20px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -60px;
+    
+  }
+  
+  .dropdown-content a {
+    color: #468b84;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: medium;
+  }
+  
+  .dropdown-content a:hover {background-color: #468b84;
+color: #073D37;
+border-bottom: 3px solid #073D37;
+    padding-bottom: 4px;
+    transition: all 0.2s ease-in;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #073D37;
+    
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: transparent;
+  }
+  .detail{
+      height: 80px;
+  }
+  @media only screen and (max-width: 800px) {
+    .sname{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 490px) {
+    .logo{
+      display: none;
+    }
+    .profile-div{
+      margin-left: 210px;
+    }
+    .profilep{
+      height: 60px;
+      margin-top: 5px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .oname{
+      display: none;
+    }
+    .profilep{
+      margin-left: 130px;
+    }
+  }
+  @media only screen and (max-width: 445px) {
+    .profilep{
+      margin-left: auto;
+    }
+  }
+  @media only screen and (max-width: 444px) {
+    .profilep{
+      margin-left: 100px;
+    }
+  }
